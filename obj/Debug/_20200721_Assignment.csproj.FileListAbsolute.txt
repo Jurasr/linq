@@ -1,0 +1,12 @@
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\bin\Debug\RobotDataBase.mdf
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\bin\Debug\RobotDataBase_log.ldf
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\bin\Debug\_20200721_Assignment.exe.config
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\bin\Debug\_20200721_Assignment.exe
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\bin\Debug\_20200721_Assignment.pdb
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.csprojAssemblyReference.cache
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.Properties.Resources.resources
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.csproj.GenerateResource.cache
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.exe
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.pdb
+C:\Users\Juras Rabačauskas\source\repos\_20200721_Assignment\obj\Debug\_20200721_Assignment.Form1.resources

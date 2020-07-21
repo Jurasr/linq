@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Corverter">
+  <DataContextMoniker Name="/CorverterDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d4e4f13e-003c-401e-9512-4c5ccde61f13" absoluteBounds="0.5, 1.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CorverterDataContext/Uzsakymai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="452e0146-435a-4112-a8d4-6010ece8394d" absoluteBounds="0.51500000000000012, 1.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6ccd4bc-d20f-46ef-877e-947b114e859a" absoluteBounds="3.625, 1.125, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/CorverterDataContext/Sheet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="712cec8b-5e2b-4774-aa86-d949ce62d5ad" absoluteBounds="3.6400000000000006, 1.585, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 2.29890055338542); (3.625 : 2.29890055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CorverterDataContext/Uzsakymai/Uzsakymai_Sheet" />
+      <nodes>
+        <classShapeMoniker Id="d4e4f13e-003c-401e-9512-4c5ccde61f13" />
+        <classShapeMoniker Id="e6ccd4bc-d20f-46ef-877e-947b114e859a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3e174c01-9216-4a16-ba84-82ff81b550e7" absoluteBounds="3.75, 5.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CorverterDataContext/LINESQL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfe6cf7b-9c75-499f-85d2-d8b7cf09f9dc" absoluteBounds="3.765, 5.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ff41147-ae96-4f05-b524-a8eb46a13a26" absoluteBounds="6.25, 1.25, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/CorverterDataContext/DrawingInDB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bef5e81a-89d1-42cf-8c13-ef5cb5cfc5c7" absoluteBounds="6.2650000000000006, 1.71, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.25 : 4.9439111328125); (5.75 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CorverterDataContext/DrawingInDB/DrawingInDB_LINESQL" />
+      <nodes>
+        <classShapeMoniker Id="1ff41147-ae96-4f05-b524-a8eb46a13a26" />
+        <classShapeMoniker Id="3e174c01-9216-4a16-ba84-82ff81b550e7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 2.93830485026042); (6.25 : 2.93830485026042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CorverterDataContext/Sheet/Sheet_DrawingInDB" />
+      <nodes>
+        <classShapeMoniker Id="e6ccd4bc-d20f-46ef-877e-947b114e859a" />
+        <classShapeMoniker Id="1ff41147-ae96-4f05-b524-a8eb46a13a26" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
